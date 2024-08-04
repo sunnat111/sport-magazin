@@ -1,0 +1,10 @@
+.main {
+    &__sponsor {
+        display: flex;
+        gap: 64px;
+
+        &_image {
+            width: 100%; 
+        }
+    }
+}

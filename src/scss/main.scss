@@ -1,0 +1,77 @@
+@import './fonts.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+input {
+    outline: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.swiper-button-next {
+    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.9);
+    width: 10.29px;
+    color: black;
+    padding: 37px 19px 40px 19px;
+}
+
+.swiper-button-next::after {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-prev {
+    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.9);
+    width: 10.29px;
+    color: black;
+    padding: 37px 19px 40px 19px;
+}
+
+.swiper-button-prev::after {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    position: fixed;
+    top: 600px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 700;
+    padding: 15px 46px 10px 30px;
+    width: 623px;
+    z-index: -5;
+}
